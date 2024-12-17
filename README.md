@@ -38,6 +38,10 @@ You can choose either SimpleITK or scipy's zoom to perform resampling.
 
 We are currently preparing a research paper on **CT-Super-Resolution** based on the methods demonstrated in this repository.
 
+### To-DO
+
+I referred to a repository for the **SimpleITK resampling code**, but I am currently unable to locate it to add the proper reference. I will include the reference as soon as I find it.  
+
 ### Contact
 
 If you have any questions or suggestions, feel free to reach out via:  
