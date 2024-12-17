@@ -148,7 +148,7 @@ def write_series_to_path(reader, target_image, original_sample_path, target_path
     The resized Sitk Image Object (3D CT) is written after extracting metadata from the given sitk_reader and the original DICOM path.    
 
     Parameters:
-        reader (sitk.Image): 
+        reader (sitk.SimpleITK.ImageSeriesReader): 
             The reader used at read soucre_image.
         target_image (sitk.Image):
             The resampled image.
