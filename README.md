@@ -40,7 +40,7 @@ We are currently preparing a research paper on **CT-Super-Resolution** based on 
 
 ### To-DO
 
-I referred to a repository for the **SimpleITK resampling code**, but I am currently unable to locate it to add the proper reference. I will include the reference as soon as I find it.  
+I referred to a repository for the `utils.resize_dicom_series_sitk`, but I am currently unable to locate it to add the proper reference. I will include the reference as soon as I find it.  
 
 ### Contact
 
