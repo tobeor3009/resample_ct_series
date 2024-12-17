@@ -28,11 +28,11 @@ You can choose either SimpleITK or scipy's zoom to perform resampling.
    Refer to the notebook: `1_Resample_CT_Series.ipynb`
 
 ### Usage
-   The steps for resampling are as follows:
-   **Step 1**: Use `utils.resize_dicom_series` to resample the **SimpleITK image** and obtain the **resampled sitk_image object**.
-   **Step 2**: Use `utils.write_series_to_path` to write **SimpleITK image(3D CT Series)** to target folder.
-
-   For more details, refer to the docstrings of `utils.resize_dicom_series` and `utils.write_series_to_path`. 
+   The steps for resampling are as follows:  
+   **Step 1**: Use `utils.resize_dicom_series` to resample the **SimpleITK image** and obtain the **resampled sitk_image object**.  
+   **Step 2**: Use `utils.write_series_to_path` to write **SimpleITK image(3D CT Series)** to target folder.  
+  
+   For more details, refer to the docstrings of `utils.resize_dicom_series` and `utils.write_series_to_path`.   
 
 ### Future Work
 
