@@ -3,15 +3,19 @@
 
 # 3D CT Resample
 
-This repository provides a ct resampling code and example code (except data):  
+This repository provides a ct resampling code and example code (except data)  
+You can easily resize a CT image using the refactor_size_list argument.
+
+For example, if the CT image has a shape of (512, 512, 96) and you set refactor_size_list to (0.5, 0.5, 1/3), you can resample it to a shape of (256, 256, 32). The resulting series slices can then be saved in the .dcm file format.
 You can choose either SimpleITK or scipy's zoom to perform resampling.
+
 
 <p align="center">
   <img src="resample_visualize.png" alt="Image Patch Example" width="90%">
 </p>
 
 <p align="center">
-  <b>Figure 3:</b> Positive Image Patch (left), Mask Patch (center), Tissue Patch (right).
+  <b>Figure 3:</b> Dense CT Image (left), Sparse CT Image (right).
 </p>
 
 1. **Extracting and Organizing Axial Series from Mixed Series Data**  
